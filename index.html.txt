@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institut Al-Quran - Langue Arabe & Aqida</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-mosque"></i>
+                    <span>Institut Al-Quran</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#cours">Cours</a></li>
+                    <li><a href="#professeurs">Professeurs</a></li>
+                    <li><a href="#tarifs">Tarifs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#inscription" class="btn-nav">S'inscrire</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Maîtrisez l'Arabe, le Quran et l'Aqida</h1>
+            <p>Apprenez avec des professeurs natifs qualifiés depuis chez vous</p>
+            <div class="hero-buttons">
+                <a href="#inscription" class="btn-primary">Commencer Gratuitement</a>
+                <a href="#cours" class="btn-secondary">Voir les Cours</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>5000+</h3>
+                <p>Étudiants</p>
+            </div>
+            <div class="stat">
+                <h3>98%</h3>
+                <p>Satisfaction</p>
+            </div>
+            <div class="stat">
+                <h3>50+</h3>
+                <p>Professeurs</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cours Section -->
+    <section id="cours" class="courses">
+        <div class="container">
+            <h2 class="section-title">Nos Cours</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Langue Arabe</h3>
+                    <p>Du niveau débutant à avancé - Grammaire, conversation, lecture</p>
+                    <ul>
+                        <li>✓ Niveaux A1 à C2</li>
+                        <li>✓ Cours interactifs</li>
+                        <li>✓ Exercices quotidiens</li>
+                    </ul>
+                    <div class="course-price">À partir de 15€/h</div>
+                </div>
+
+                <div class="course-card featured">
+                    <div class="course-icon">
+                        <i class="fas fa-quran"></i>
+                    </div>
+                    <h3>Tajwid & Quran</h3>
+                    <p>Apprentissage de la récitation parfaite du Quran</p>
+                    <ul>
+                        <li>✓ Règles de Tajwid</li>
+                        <li>✓ Mémorisation</li>
+                        <li>✓ Correction en direct</li>
+                    </ul>
+                    <div class="course-price">À partir de 20€/h</div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Aqida & Sciences Islamiques</h3>
+                    <p>Les croyances fondamentales et sciences de la religion</p>
+                    <ul>
+                        <li>✓ Aqida Ahlus Sunnah</li>
+                        <li>✓ Fiqh de base</li>
+                        <li>✓ Hadiths authentiques</li>
+                    </ul>
+                    <div class="course-price">À partir de 18€/h</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Ce que disent nos élèves</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Excellents professeurs et méthode très efficace. J'ai progressé rapidement en arabe fusha !"</p>
+                    <div class="author">
+                        <img src="https://via.placeholder.com/60" alt="Amina">
+                        <div>
+                            <h4>Amina B.</h4>
+                            <span>Étudiante depuis 6 mois</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plus de témoignages... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Inscription -->
+    <section id="inscription" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Prêt à commencer votre apprentissage ?</h2>
+                <p>Premier cours gratuit + Évaluation de niveau offerte</p>
+                <form class="cta-form">
+                    <input type="text" placeholder="Votre nom" required>
+                    <input type="email" placeholder="Votre email" required>
+                    <select required>
+                        <option value="">Choisir un cours</option>
+                        <option value="arabe">Langue Arabe</option>
+                        <option value="quran">Tajwid & Quran</option>
+                        <option value="aqida">Aqida</option>
+                    </select>
+                    <button type="submit" class="btn-primary">Réserver mon cours gratuit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-mosque"></i>
+                        <span>Institut Al-Quran</span>
+                    </div>
+                    <p>Votre porte d'entrée vers l'apprentissage authentique de l'Islam</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Cours</h4>
+                    <ul>
+                        <li><a href="#">Langue Arabe</a></li>
+                        <li><a href="#">Tajwid Quran</a></li>
+                        <li><a href="#">Aqida</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> +33 7 12 34 56 78</p>
+                    <p><i class="fas fa-envelope"></i> contact@institut-alquran.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Institut Al-Quran. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
