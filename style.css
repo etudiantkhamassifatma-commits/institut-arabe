@@ -87,12 +87,17 @@ body {
 /* Hero */
 .hero {
     min-height: 100vh;
-    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    /* couleur beige simple */
+    background: #f5f0e6;  /* beige clair */
+
+    /* ou un dégradé nude plus doux par exemple : */
+    /* background: linear-gradient(135deg, #f5f0e6 0%, #d8cfc4 100%); */
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 5%;
-    color: white;
+    color: #333; /* changer couleur texte pour visibilité */
     position: relative;
     overflow: hidden;
 }
