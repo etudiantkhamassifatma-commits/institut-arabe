@@ -153,10 +153,12 @@ body {
     box-shadow: 0 15px 40px rgba(245, 158, 11, 0.6);
 }
 
+
+
 .btn-secondary {
-    background: transparent;
-    color: #1e3a8a;  /* texte bleu foncé */
-    border: 2px solid #1e3a8a; /* bordure bleu foncé */
+    background: transparent !important;
+    color: #1e3a8a !important;
+    border: 2px solid #1e3a8a !important;
     padding: 15px 30px;
     border-radius: 50px;
     font-weight: 600;
@@ -169,8 +171,8 @@ body {
 }
 
 .btn-secondary:hover {
-    background: #1e3a8a; /* fond bleu foncé */
-    color: white;        /* texte blanc */
+    background: #1e3a8a !important;
+    color: white !important;
 }
 
 .hero-stats {
