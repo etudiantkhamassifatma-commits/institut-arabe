@@ -157,12 +157,20 @@ body {
     background: transparent;
     color: #1e3a8a;  /* texte bleu foncé */
     border: 2px solid #1e3a8a; /* bordure bleu foncé */
-    transition: all 0.3s;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
 }
 
 .btn-secondary:hover {
-    background: #1e3a8a; /* fond bleu foncé au survol */
-    color: white;        /* texte blanc au survol */
+    background: #1e3a8a; /* fond bleu foncé */
+    color: white;        /* texte blanc */
 }
 
 .hero-stats {
